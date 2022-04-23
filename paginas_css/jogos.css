@@ -1,0 +1,103 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+@font-face {
+    font-family: "MICKEY" ;
+    src: url(./MICKEY.TTF);
+    font-family: "Minnie" ;
+    src: url(./Minnie.TTF);
+}
+body{
+    background-color: rgb(205,133,63);
+    font-family: "Minnie" ;
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p3/2042702-desenho-bonito-paisagem-campo-com-casa-e-estrada-vetor.jpg);
+    background-size: cover;
+}
+
+    
+#divLogo{
+    width: auto;
+    height: auto;
+}
+#conteinerLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    width: 200px;
+    height: 200px;
+
+}
+#conteinerzao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#conteinerImg{
+    display: flex;
+   
+    width: 70%;
+    position: relative;
+    top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+#imgMickey{width: 200px;
+    height: 300px;
+
+}
+#imgPateta{width: 200px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+
+}
+#imgDonald{width: 200px;
+    height: 300px;
+    position: relative;
+    top: 10px;
+
+}
+#divTexto{
+    width: auto;
+    border-width: 10px;
+    border-radius: 20%;
+    border-style: double;
+    border-color: white;
+    background-color: aliceblue;
+}
+#conteinerText{
+    font-family: "Minnie" ;
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#imgDonald:hover{
+    width: 250px;
+    height: 350px;
+}
+#imgPateta:hover{
+    width: 250px;
+    height: 350px;
+}
+#imgMickey:hover{
+    width: 250px;
+    height: 350px;
+}
